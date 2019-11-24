@@ -1,0 +1,201 @@
+.icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: #888;
+}
+
+a:hover {
+    color: #333;
+}
+
+.highlight {
+    color: #FF5700;
+    border-radius: 5px;
+    background: #efefef;
+}
+
+body {
+    color: #333;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino;
+    font-size: 1em;
+    background: rgb(195, 188, 178);
+}
+
+.layout {
+    background: #fff;
+    width: 100vw;
+}
+
+/* header */
+header {
+    background: rgb(64, 64, 65);
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 125px;
+    position: relative;
+}
+
+header .resume-link {
+    display: none;
+}
+
+header>h1 {
+    color: #fff;
+}
+
+header>p {
+    color: #999;
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+/* aside */
+aside {
+    background: #FFF;
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+}
+
+aside .avader {
+    text-align: center;
+    position: absolute;
+    top: -110px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+aside .avader>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: cornflowerblue;
+}
+
+aside section {
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+section h2 {
+    padding-bottom: 10px;
+    color: #2397DF;
+}
+
+section .item {
+    font-size: 14px;
+    color: #666;
+}
+
+.personal .item span:first-child {
+    width: 80px;
+    display: inline-block;
+}
+
+.personal .item span:last-child::before {
+    content: '：';
+    padding-right: 18px;
+}
+
+.skills .item {
+    padding-top: 8px;
+}
+
+.skills .item .keyword {
+    padding-bottom: 5px;
+}
+
+.skills .item .rule {
+    height: 4px;
+    background: #eee;
+}
+
+.skills .item i {
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: #000;
+}
+
+.contact .item {
+    display: flex;
+    align-items: center;
+    padding: 2.5px 0;
+}
+
+.contact .item span {
+    padding-left: 10px;
+}
+
+.more .item {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+    font-size: 16px;
+}
+
+.more .item .icon {
+    width: 32px;
+    height: 32px;
+}
+
+/* main */
+main {
+    background: #fff;
+    min-height: calc(100vh - 172px);
+}
+
+main section {
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+main .line {
+    display: none;
+}
+
+main section p {
+    padding-bottom: 3px;
+}
+
+main section .item h3 {
+    color: #333;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+main section .item img {
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-style: dashed;
+    border-radius: 5px;
+}
+
+main section .item ul {
+    padding-top: 10px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+footer {
+    background: rgb(64, 64, 65);
+    text-align: center;
+    width: 100%;
+}
